@@ -43,20 +43,20 @@ class Objects
 
 
     /**
-     * @return string
+     * @return int
      */
-    public function getTitle(): string
+    public function getId(): int
     {
-        return $this->title;
+        return $this->id;
     }
 
 
 
     /**
-     * @param string $title
+     * @param int $id
      */
-    public function setTitle(string $title): void
+    public function setId(int $id): void
     {
-        $this->title = $title;
+        $this->id = $id;
     }
 }
